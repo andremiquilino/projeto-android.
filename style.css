@@ -1,0 +1,101 @@
+    @charset "UTF-8";
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    @font-face {
+        font-family: Android;
+        src: url(../idroid/IDroid.otf) format(opentype);
+    }
+
+    :root{
+        --cor1: #27A31A;
+        --cor2: #138707;
+        --cor3: #074D00;
+        --cor4: #042B00;
+        --fonte-padrao: Arial,Verdana,Helvetica,sans-serif;
+        --fonte-destaque:"Bebas Neue", serif;
+        --fonte-Android:'Android','Cursive';
+    }
+
+    main{
+        background-image: linear-gradient(to bottom,var(--cor1),var(--cor4));
+        padding: 9px;
+        margin: -10px;
+        color: white;
+        box-shadow: 7px 5px 12px black;
+    }
+    main > a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    main > h1{
+        text-align: center;
+        font-family: var(--fonte-destaque);
+        text-shadow: 9px 10px 6px black;
+    }
+    main > p{
+        text-align: center;
+        text-shadow: 10px 10px 10px black;
+        padding: 10px;
+        margin: 10px;
+    }
+    a:hover{
+        color:blue;
+        text-decoration: underline;
+        background-color: darkturquoise;
+        transition-duration: 0.7s;
+    }
+    header{
+        background-color: bisque;
+        padding: 10px;
+        margin: 10px 30px 10px 30px;
+        text-align: justify;
+    }
+    span{
+        font-size: 20px;
+    }
+    span > h2{
+        background-image: linear-gradient(to right, var(--cor1), transparent);
+        font-family: var(--fonte-Android);
+    }
+    header{
+        box-shadow: 7px 7px 15px black;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        min-width: 320px;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 9px;
+    }
+    span ul {
+        columns: 2;
+        list-style-type: '\2714\00A0';
+    }
+    footer{
+        background-color: #074D00;
+        color: azure;
+        margin: 0px;
+        padding: 0px;
+    }
+   span img {
+    display: block;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+   }
+   footer a{
+    color: rgb(28, 136, 231);
+   }
+   div.video{
+    margin: 5px;
+    padding: 162px;
+    position: relative;
+    padding-bottom:50%;
+   }
+   div.video > iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+   }
