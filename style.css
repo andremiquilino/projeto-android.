@@ -18,8 +18,8 @@
 
     main{
         background-image: linear-gradient(to bottom,var(--cor1),var(--cor4));
-        padding: 9px;
-        margin: -10px;
+        padding: 9px 9px 9px 9px;
+        margin: -10px -18px -10px -16px;
         color: white;
         box-shadow: 7px 5px 12px black;
     }
